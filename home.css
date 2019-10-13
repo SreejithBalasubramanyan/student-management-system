@@ -214,6 +214,175 @@
     background-color: none;
     transition: .25s ease;
 }
+.font-link
+{
+    float:left; 
+    width: inherit;
+    border: 1px solid black;
+    font-size:15px;
+    font-family: sans-serif;
+    color:black;
+    text-align:center;
+    margin-top: -1px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    text-decoration:none;
+}
+.font-link:hover
+{
+    color:white;
+    background-color: black;
+    
+    transition: .25s ease;
+}
+.pop-srchs-text
+{
+    font-size: 15px;
+    color:black;
+    font-family: sans-serif;
+    text-decoration:none;
+    margin-top: 3px;
+    float:left;
+    font-weight: bold;
+}
+.pop-srchs
+{
+    width: 564px;
+    height:20px;
+    margin-left:400px;
+    float:left;
+    background-color: none;
+    margin-top:-155px;
+}
+.pop-srchs-text:hover
+{
+    text-decoration: underline;
+    color:red;
+    transition: .25s ease;
+}
+
+
+
+
+
+
+
+.menu
+{
+    width:50px;
+    height: 20px;
+    background-color:none;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    float: left;
+    color:black;
+    margin-left: 20px;
+}
+.menu ul
+{
+    
+    float:left;
+    font-size:15px;
+    font-family: sans-serif;
+    color:black;
+    font-weight:bold;
+    margin-top: 3px;
+    margin-left: 0px;
+    list-style: none;
+}
+.menu li
+{
+    width: 50px;
+    float: left;
+    margin-left:-40px;
+    margin-top: 0px;
+}
+.menu li a
+{
+    display:block;
+    background:none;
+    color:black;
+    margin-left:0px;
+    text-decoration: none;
+}
+.menu li ul
+{
+    width: 500px;
+    color:red;
+    padding-right:0px;
+    padding-left: 0px;
+    margin-left:-25px;
+    margin-top: -25px;
+    position:absolute;
+    z-index: 200;
+    display: block; ****
+    
+    
+}
+.menu li li
+{
+    width: 170px;
+    margin-top: 5px;
+    float:none;
+    margin-left:0px;
+    list-style: none;
+}
+
+.menu li:hover ul
+{
+    display: block;
+    background-color: white;
+    transition: .25s ease;
+    
+}
+
+.menu li a:hover 
+{
+    background:none;
+    transition: .25s ease;
+    color:red;
+    text-decoration: underline;
+}
+ .menu li:hover 
+{
+    background-color: none;
+    transition: .25s ease;
+}
+
+.menu li ul a
+{
+    display: block;
+    
+    font-size:15px;
+    font-style: normal;
+    margin:0px;
+    padding:0px 10px 0px 15px;
+    text-align: left;
+    
+}
+.menu li ul:hover
+{
+    
+    border:0px;
+    text-decoration: none;
+    
+}
+
+.menu li:hover li a
+{
+    background:none;
+}
+
+.menu li ul a:hover
+{
+    background:none;
+    color: black;
+    transition: .25s ease;
+}
+
+
+
 
 .menu li ul a
 {
